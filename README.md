@@ -14,7 +14,7 @@ the training data includes images of raw ingredients or processed and packaged f
 
 FIXME: add images for above
 
-This competition is part of the fine-grained visual-categorization workship([FGVC5 workshop](https://sites.google.com/view/fgvc5/home)) at [CVPR 2018](http://cvpr2018.thecvf.com/). The winners of the challenge will be invited to present their work at the FGVC5 workshop.
+This competition is part of the fine-grained visual-categorization workshop ([FGVC5 workshop](https://sites.google.com/view/fgvc5/home)) at [CVPR 2018](http://cvpr2018.thecvf.com/). The winners of the challenge will be invited to present their work at the FGVC5 workshop.
 
 ## Dates
 |||
