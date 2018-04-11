@@ -1,7 +1,9 @@
 FIXME: Add figure for banner
 
-# iFood 2018 Competition
-Identifying the food items in an image can automate food intake monitoring to maintain a healthy diet. Food classification is a challenging problem due to a large number of food categories, high visual similarity between different food items as well as limited datasets. In this competition, we provide a dataset of FIXME food items (prepared, not raw) with FIXME training images and FIXME test images. The goal is to learn a model from training data to correctly classify the test images. 
+# iFood-211 2018 Challenge
+Being able to automatically identify the food items in an image can assist towards food intake monitoring to maintain a healthy diet. Food classification is a challenging problem due to a large number of food categories, high visual similarity between different food categories as well as limited datasets for training deep models. In this competition, we introduce a novel dataset of 211 fine-grained food categories (prepared, not raw) with FIXME training images. The goal is to learn a model from training data to correctly classify the food class in a test image.
+
+FIXME(ksikka-comment): Parneet mention that we crawl data from web images in the intro and also provide a manually cleaned set. Our future aim is to expand these categories and so on. 
 
 The main challenges are:
 
