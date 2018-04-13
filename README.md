@@ -22,7 +22,7 @@ Submission Deadline|June FIXME, 2018|
 Winners Announced|June FIXME, 2018|
 
 ## Data
-There are a total of FIXME food items (classes) in the dataset. A complete list of classes is available [here](FIXME:add classes.txt with format class_id, class_name).
+There are a total of FIXME food items (classes) in the dataset. A complete list of classes is available [here](https://rawgit.com/karansikka1/Foodx/master/class_list.txt).
 
 
 ### Training Data
