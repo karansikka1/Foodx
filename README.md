@@ -1,9 +1,7 @@
 FIXME: Add figure for banner
 
 # iFood-211 2018 Challenge
-Being able to automatically identify the food items in an image can assist towards food intake monitoring to maintain a healthy diet. Food classification is a challenging problem due to a large number of food categories, high visual similarity between different food categories as well as limited datasets for training deep models. In this competition, we introduce a novel dataset of 211 fine-grained food categories (prepared, not raw) with FIXME training images. The goal is to learn a model from training data to correctly classify the food class in a test image.
-
-FIXME(ksikka-comment): Parneet mention that we crawl data from web images in the intro and also provide a manually cleaned set. Our future aim is to expand these categories and so on. 
+Being able to automatically identify the food items in an image can assist towards food intake monitoring to maintain a healthy diet. Food classification is a challenging problem due to a large number of food categories, high visual similarity between different food categories as well as limited datasets for training deep models. In this competition, we introduce a novel dataset of 211 fine-grained food categories (prepared, not raw) with FIXME training images collected from web. We also provide manually cleaned data for validation and test sets. The goal is to learn a model from training data and correctly classify a test image.
 
 The main challenges are:
 
@@ -13,8 +11,6 @@ The main challenges are:
 the training data includes images of raw ingredients or processed and packaged food items.
 
 * Cross-category Noise: A training image may have multiple food items but it has only one label as its ground truth. 
-
-FIXME: add images for above
 
 This competition is part of the fine-grained visual-categorization workshop ([FGVC5 workshop](https://sites.google.com/view/fgvc5/home)) at [CVPR 2018](http://cvpr2018.thecvf.com/). The winners of the challenge will be invited to present their work at the FGVC5 workshop.
 
@@ -39,8 +35,13 @@ The training data consists of FIXME images from FIXME classes. The test data is 
 The training data consists of FIXME images from FIXME classes. The test data is collected from web images and then annotated. It does not contain noisy labels.
 
 ## Evaluation
+For each image in the test set, you must produce the most confident class label. The file should contain a header as shown in the example below. Besides header, each row has four columns: image_name,predicted class_id 1,predicted class_id 2,predicted class_id 3
 
 ## Submission File
+image_name,pred1,pred2,pred3
+test_0001,0,1,10
+test_0002,1,3,5
+test_0003,0,5,1
 
 ## Rules
 
@@ -65,4 +66,5 @@ By downloading this dataset you agree to the following terms:
 
 
 ## Co-organizers
-FIXME: Add SRI and Google logos
+SRI International
+Google 
