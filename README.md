@@ -53,7 +53,7 @@ test_0001,0,1,10 </br>
 test_0002,1,3,5 </br>
 test_0003,0,5,1 </br>
 
-This file will have $N+1$ rows where $N$ = number of test images.
+This file will have N+1 rows where N = number of test images.
 
 ## Rules
 
