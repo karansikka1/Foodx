@@ -39,7 +39,9 @@ Submissions are evaluated on top 3 error rate of the predictions on test images.
 
 We will compute the top 3 accuracy as:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=e_i%20%3D%20%5Cmin_j%20d%28t_i%2Cp_%7Bij%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="e_i = \min_j d(t_i,p_{ij})" width="139" height="31")
+![equation](http://www.sciweavers.org/tex2img.php?eq=e_i%20%3D%20%5Cmin_j%20d%28t_i%2Cp_%7Bij%7D%29&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+
+
 
 ![equation](http://www.sciweavers.org/tex2img.php?eq=d%28x%2Cy%29%20%3D%5Cbegin%7Bcases%7D0%2C%20%26%20if%20x%20%3D%20y%5C%5C1%2C%20%26%20otherwise%5Cend%7Bcases%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0" align="center" border="0" alt="d(x,y) =\begin{cases}0, & if x = y\\1, & otherwise\end{cases} " width="214" height="47")
 
