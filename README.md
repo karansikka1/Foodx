@@ -22,7 +22,7 @@ Submission Deadline|June FIXME, 2018|
 Winners Announced|June FIXME, 2018|
 
 ## Data
-There are a total of FIXME food items (classes) in the dataset. A complete list of classes is available [here](FIXME:add classes.txt).
+There are a total of FIXME food items (classes) in the dataset. A complete list of classes is available [here](FIXME:add classes.txt with format class_id, class_name).
 
 
 ### Training Data
@@ -35,13 +35,13 @@ The training data consists of FIXME images from FIXME classes. The test data is 
 The training data consists of FIXME images from FIXME classes. The test data is collected from web images and then annotated. It does not contain noisy labels.
 
 ## Evaluation
-For each image in the test set, you must produce the most confident class label. The file should contain a header as shown in the example below. Besides header, each row has four columns: image_name,predicted class_id 1,predicted class_id 2,predicted class_id 3
+Submissions are evaluated on top 3 error rate of the predictions. For each image in the test set, you must produce the top 3 confident class label. The file should contain a header as shown in the example submission file below. Besides header, each row has four columns: image_name,predicted class_id 1,predicted class_id 2,predicted class_id 3
 
 ## Submission File
-image_name,pred1,pred2,pred3
-test_0001,0,1,10
-test_0002,1,3,5
-test_0003,0,5,1
+image_name,pred1,pred2,pred3 </br>
+test_0001,0,1,10 </br>
+test_0002,1,3,5 </br>
+test_0003,0,5,1 </br>
 
 ## Rules
 
