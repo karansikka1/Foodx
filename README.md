@@ -37,16 +37,14 @@ The training data consists of FIXME images from FIXME classes. The test data is 
 ## Evaluation
 Submissions are evaluated on top 3 error rate of the predictions on test images. For each image in the test set, you must produce the top 3 confident class label. The file should contain a header as shown in the example submission file below. Besides header, there should be a row for each test image. Each row has four columns: image_name,predicted class_id 1,predicted class_id 2,predicted class_id 3, where predicted class_id 1 is the most confident class label. 
 
-Error rate of a single test image ![equation](http://www.sciweavers.org/tex2img.php?eq=i&bc=White&fc=Black&im=png&fs=12&ff=modern&edit=0) with true label ![equation](http://www.sciweavers.org/tex2img.php?eq=t_i&bc=White&fc=Black&im=png&fs=12&ff=modern&edit=0) and predicted labels ![equation](http://www.sciweavers.org/tex2img.php?eq=t_%7Bij%7D&bc=White&fc=Black&im=png&fs=12&ff=modern&edit=0) is:
+Error rate of a test image <img src="https://rawgit.com/karansikka1/Foodx/master/assets/i.png?invert_in_darkmode" align=middle width=5.642109pt height=21.60213pt/> with true label <img src="https://rawgit.com/karansikka1/Foodx/master/assets/g_i.png?invert_in_darkmode" align=middle width=5.642109pt height=21.60213pt/> and predicted labels <img src="https://rawgit.com/karansikka1/Foodx/master/assets/p_ij.png?invert_in_darkmode" align=middle width=5.642109pt height=21.60213pt/>  is:
+<img src="https://rawgit.com/karansikka1/Foodx/master/assets/eq_1.png?invert_in_darkmode" align=middle width=190.2021pt height=49.13139pt/> 
+where 
+ <img src="https://rawgit.com/karansikka1/Foodx/master/assets/eq_2.png?invert_in_darkmode" align=middle width=190.2021pt height=49.13139pt/>.
+ 
+The overall error score of the test dataset with <img src="https://rawgit.com/karansikka1/Foodx/master/assets/N.png?invert_in_darkmode" align=middle width=5.642109pt height=21.60213pt/> test images is computed as:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=e_i%20%3D%20%5Cmin_j%20d%28t_i%2Cp_%7Bij%7D%29&bc=White&fc=Black&im=png&fs=12&ff=modern&edit=0), 
-
-
-where ![equation](http://www.sciweavers.org/tex2img.php?eq=d%28x%2Cy%29%20%3D%5Cbegin%7Bcases%7D0%2C%20%26%20if%20x%20%3D%20y%5C%5C1%2C%20%26%20otherwise%5Cend%7Bcases%7D&bc=White&fc=Black&im=png&fs=12&ff=modern&edit=0).
-
-The overall error score of the test dataset with ![equation](http://www.sciweavers.org/tex2img.php?eq=N&bc=White&fc=Black&im=png&fs=12&ff=modern&edit=0) test images is computed as:
-
-![equation](http://www.sciweavers.org/tex2img.php?eq=score%20%3D%20%5Cfrac%7B1%7D%7BN%7D%20%5Csum_i%7Be_i%7D&bc=White&fc=Black&im=png&fs=12&ff=modern&edit=0)
+ <img src="https://rawgit.com/karansikka1/Foodx/master/assets/eq_3.png?invert_in_darkmode" align=middle width=190.2021pt height=49.13139pt/>.
 
 
 ## Submission File
