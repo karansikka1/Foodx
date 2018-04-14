@@ -1,25 +1,25 @@
 FIXME: Add figure for banner
 
 # iFood-211 2018 Challenge
-Being able to automatically identify the food items in an image can assist towards food intake monitoring to maintain a healthy diet. Food classification is a challenging problem due to a large number of food categories, high visual similarity between different food categories as well as limited datasets for training deep models. In this competition, we introduce a novel dataset of 211 fine-grained food categories (prepared, not raw) with FIXME training images collected from web. We also provide manually cleaned data for validation and test sets. The goal is to learn a model from training data and correctly classify a test image.
+Being able to automatically identify the food items in an image can assist towards food intake monitoring to maintain a healthy diet. Food classification is a challenging problem due to a large number of food categories, high visual similarity between different food categories, as well as limited datasets for training deep models. In this competition, we introduce a novel dataset of 211 fine-grained (prepared) food categories with FIXME training images collected from web search engines. We provide a manually cleaned subset of FIXME images for validation and and FIXME images for testing. The goal is to learn a model to classify a given image into these food-categories. 
 
 The main challenges are:
 
 * Fine-grained Classes: The classes are fine-grained and visually similar. For example, the dataset has FIXME different type of cakes, FIXME different types of pastas and FIXME different types of seafood.
 
-* Cross-domain Noise: Along with the images of cooked food items,
-the training data includes images of raw ingredients or processed and packaged food items.
-
-* Cross-category Noise: A training image may have multiple food items but it has only one label as its ground truth. 
+* Noisy Data: Since the training images are crawled from web search engines, they often include images of raw ingredients or processed and packaged food items. This is refered to as cross-domain noise. Further, due to fine-grained nature of food-categories, a training image may either be incorrectly labeled into a visually similar class or have multiple food items but is annotated with a single label. 
 
 This competition is part of the fine-grained visual-categorization workshop ([FGVC5 workshop](https://sites.google.com/view/fgvc5/home)) at [CVPR 2018](http://cvpr2018.thecvf.com/). The winners of the challenge will be invited to present their work at the FGVC5 workshop.
+
+## Updates
+The Github page for the challenge is online
 
 ## Dates
 |||
 |------|---------------|
-Data Released|April 15, 2018|
-Submission Deadline|June FIXME, 2018|
-Winners Announced|June FIXME, 2018|
+Data Released|April 25, 2018|
+Submission Deadline|June, 2018|
+Winners Announced|June, 2018|
 
 ## Data
 There are a total of FIXME food items (classes) in the dataset. A complete list of classes is available [here](https://rawgit.com/karansikka1/Foodx/master/class_list.txt).
@@ -67,8 +67,6 @@ This file will have N+1 rows where N = number of test images.
  
 
 ## Terms of Use
-KARAN: please check these based on the hosting platform of dataset and get it reviewed by Ajay as well. I used the same as iNaturalist
-
 By downloading this dataset you agree to the following terms:
 
 * You will use the data only for non-commercial research and educational purposes.
@@ -76,7 +74,12 @@ By downloading this dataset you agree to the following terms:
 * The organizers makes no representations or warranties regarding the data, including but not limited to warranties of non-infringement or fitness for a particular purpose.
 * You accept full responsibility for your use of the data and shall defend and indemnify the  organizers, including its employees, officers and agents, against any and all claims arising from your use of the data, including but not limited to your use of any copies of copyrighted images that you may create from the data.
 
+## DATA
+Need to be filled
 
-## Co-organizers
-SRI International </br>
-Google 
+## Organizers
+Karan Sikka, SRI International
+Parneet Kaur, Johnson and Johnson 
+Weijun Wang, Google
+
+For any further inquiries please contact us at xyz@FIXME.com
