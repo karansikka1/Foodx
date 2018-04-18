@@ -1,4 +1,4 @@
-FIXME: Add figure for banner
+<img src="https://rawgit.com/karansikka1/Foodx/master/assets/banner.png?invert_in_darkmode" align=middle/> 
 
 # iFood-211 2018 Challenge
 Being able to automatically identify the food items in an image can assist towards food intake monitoring to maintain a healthy diet. Food classification is a challenging problem due to a large number of food categories, high visual similarity between different food categories, as well as limited datasets for training deep models. In this competition, we introduce a novel dataset of 211 fine-grained (prepared) food categories with FIXME training images collected from web search engines. We provide a manually cleaned subset of FIXME images for validation and and FIXME images for testing. The goal is to learn a model to classify a given image into these food-categories. 
