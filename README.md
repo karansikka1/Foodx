@@ -78,8 +78,8 @@ By downloading this dataset you agree to the following terms:
 Need to be filled
 
 ## Organizers
-Karan Sikka, SRI International
-Parneet Kaur, Johnson and Johnson 
-Weijun Wang, Google
+Karan Sikka, SRI International </br>
+Parneet Kaur, Johnson and Johnson </br>
+Weijun Wang, Google </br>
 
 For any further inquiries please contact us at xyz@FIXME.com
