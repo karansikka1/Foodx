@@ -1,7 +1,7 @@
 <img src="https://rawgit.com/karansikka1/Foodx/master/assets/banner.png?invert_in_darkmode" align=middle/> 
 
 # iFood-211 2018 Challenge
-Being able to automatically identify the food items in an image can assist towards food intake monitoring to maintain a healthy diet. Food classification is a challenging problem due to a large number of food categories, high visual similarity between different food categories, as well as limited datasets for training deep models. In this competition, we introduce a novel dataset of 211 fine-grained (prepared) food categories with FIXME training images collected from web search engines. We provide a manually cleaned subset of FIXME images for validation and and FIXME images for testing. The goal is to learn a model to classify a given image into these food-categories. 
+Being able to automatically identify the food items in an image can assist towards food intake monitoring to maintain a healthy diet. Food classification is a challenging problem due to a large number of food categories, high visual similarity between different food categories, as well as limited datasets for training deep models. In this competition, we introduce a novel dataset of 211 fine-grained (prepared) food categories with 101733 training images collected from web search engines. We provide a manually cleaned subset of 10323 images for validation and and 24088 images for testing. The goal is to learn a model to classify a given image into these food-categories. 
 
 The main challenges are:
 
@@ -22,17 +22,17 @@ Submission Deadline|June, 2018|
 Winners Announced|June, 2018|
 
 ## Data
-There are a total of FIXME food items (classes) in the dataset. A complete list of classes is available [here](https://rawgit.com/karansikka1/Foodx/master/class_list.txt).
+There are a total of 211 food categories in the dataset. A complete list of classes is available [here](https://rawgit.com/karansikka1/Foodx/master/class_list.txt).
 
 
 ### Training Data
-The training data consists of FIXME images from FIXME classes. Each class has FIXME(enter range 400-700) images. The training data is collected from web images and consists noisy labels.
+The training data consists of 101733 images from 211 classes. The training data is collected from web images and consists noisy labels.
 
 ### Validation Data
-The training data consists of FIXME images from FIXME classes. The test data is collected from web images and then annotated. It does not contain noisy labels.
+The validation data consists of 10323 images from 211 classes. The test data is collected from web images and then annotated. It does not contain noisy labels.
 
 ### Test Data
-The training data consists of FIXME images from FIXME classes. The test data is collected from web images and then annotated. It does not contain noisy labels.
+The training data consists of 24088 images from 211 classes. The test data is collected from web images and then annotated. It does not contain noisy labels.
 
 ## Evaluation
 Submissions are evaluated on top 3 error rate of the predictions on test images. For each image in the test set, you must produce the top 3 confident class label. The file should contain a header as shown in the example submission file below. Besides header, there should be a row for each test image. Each row has four columns: image_name,predicted class_id 1,predicted class_id 2,predicted class_id 3, where predicted class_id 1 is the most confident class label. 
@@ -81,5 +81,6 @@ Need to be filled
 Karan Sikka, SRI International </br>
 Parneet Kaur, Johnson and Johnson </br>
 Weijun Wang, Google </br>
+Ajay Divakaran, SRI International </br>
 
 For any further inquiries please contact us at xyz@FIXME.com
