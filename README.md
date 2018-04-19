@@ -57,7 +57,7 @@ This file will have N+1 rows where N = number of test images.
 
 ## Rules
 
-* Participants should use only the provided training and validation images for training models. No additional data is allowed.
+* Participants should use only the provided training and validation images for training models. No additional data is allowed. Validation data should only be used for validation.
 
 * Collecting additional annotations for the test images is not allowed.
 
