@@ -5,7 +5,7 @@ Being able to automatically identify the food items in an image can assist towar
 
 The main challenges are:
 
-* Fine-grained Classes: The classes are fine-grained and visually similar. For example, the dataset has FIXME different type of cakes, FIXME different types of pastas and FIXME different types of seafood.
+* Fine-grained Classes: The classes are fine-grained and visually similar. For example, the dataset has 15 different type of cakes, and 10 different types of pastas.
 
 * Noisy Data: Since the training images are crawled from web search engines, they often include images of raw ingredients or processed and packaged food items. This is refered to as cross-domain noise. Further, due to fine-grained nature of food-categories, a training image may either be incorrectly labeled into a visually similar class or have multiple food items but is annotated with a single label. 
 
