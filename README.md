@@ -39,7 +39,7 @@ Submissions are evaluated on top 3 error rate of the predictions on test images.
 
 Error rate of a test image <img src="https://rawgit.com/karansikka1/Foodx/master/assets/i.png?invert_in_darkmode" width=4pt height=15pt/> with true label <img src="https://rawgit.com/karansikka1/Foodx/master/assets/g_i.png?invert_in_darkmode" align=middle width=10pt height=20pt/> and predicted labels <img src="https://rawgit.com/karansikka1/Foodx/master/assets/p_ij.png?invert_in_darkmode" align=middle  width=10pt height=20pt/>  is:
 
-<img src="https://rawgit.com/karansikka1/Foodx/master/assets/eq_1.png?invert_in_darkmode" align=middle width=150pt height=40pt/> 
+<img src="https://rawgit.com/karansikka1/Foodx/master/assets/eq_1.png?invert_in_darkmode" align=middle /> 
 , where 
  <img src="https://rawgit.com/karansikka1/Foodx/master/assets/eq_2.png?invert_in_darkmode" align=middle width=190pt height=50pt/>.
  
