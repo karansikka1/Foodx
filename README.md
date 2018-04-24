@@ -35,9 +35,9 @@ The validation data consists of 10323 images from 211 classes. The test data is 
 The training data consists of 24088 images from 211 classes. The test data is collected from web images and then annotated. It does not contain noisy labels.
 
 ## Evaluation
-Submissions are evaluated on top 3 error rate of the predictions on test images. For each image in the test set, you must produce the top 3 confident class label. The file should contain a header as shown in the example submission file below. Besides header, there should be a row for each test image. Each row has four columns: image_name,predicted class_id 1,predicted class_id 2,predicted class_id 3, where predicted class_id 1 is the most confident class label. 
+Submissions are evaluated on top 3 error rate of the predictions on test images. For each image in the test set, you must produce the top 3 confident class label. The file should contain a header as shown in the example submission file below. Besides header, there should be a row for each test image. Each row has four columns: image_name,predicted class_id 1,predicted class_id 2,predicted class_id 3, where predicted class_id 1 is the most confident class labels. 
 
-Error rate of a test image <img src="https://rawgit.com/karansikka1/Foodx/master/assets/i.png?invert_in_darkmode" width=4pt height=15pt/> with true label <img src="https://rawgit.com/karansikka1/Foodx/master/assets/g_i.png?invert_in_darkmode" align=middle width=12pt height=16pt/> and predicted labels <img src="https://rawgit.com/karansikka1/Foodx/master/assets/p_ik.png?invert_in_darkmode" align=middle  width=16pt height=14pt/>  is:
+The error rate of a test image <img src="https://rawgit.com/karansikka1/Foodx/master/assets/i.png?invert_in_darkmode" width=4pt height=15pt/> with true label <img src="https://rawgit.com/karansikka1/Foodx/master/assets/g_i.png?invert_in_darkmode" align=middle width=12pt height=16pt/> and predicted labels <img src="https://rawgit.com/karansikka1/Foodx/master/assets/p_ik.png?invert_in_darkmode" align=middle  width=16pt height=14pt/>  is:
 
 <img src="https://rawgit.com/karansikka1/Foodx/master/assets/eq_1.png?invert_in_darkmode" align=middle width=140pt height=24pt/> , 
 
@@ -85,6 +85,7 @@ Karan Sikka, SRI International </br>
 Parneet Kaur\*, Johnson and Johnson </br>
 Weijun Wang, Google </br>
 Ajay Divakaran, SRI International </br>
+Serge Belongie, Cornell Tech </br>
 
 \*work done while Parneet was an intern at SRI International
 
