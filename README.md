@@ -82,8 +82,10 @@ Need to be filled
 
 ## Organizers
 Karan Sikka, SRI International </br>
-Parneet Kaur, Johnson and Johnson </br>
+Parneet Kaur\*, Johnson and Johnson </br>
 Weijun Wang, Google </br>
 Ajay Divakaran, SRI International </br>
+
+\*work done while Parneet was an intern at SRI International
 
 For any further inquiries please contact us at xyz@FIXME.com
