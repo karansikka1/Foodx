@@ -13,6 +13,7 @@ This competition is part of the fine-grained visual-categorization workshop ([FG
 
 ## Updates
 4/25/18: The Github page for the challenge is online
+
 4/25/18: Training, validation and test data is available
 
 ## Dates
