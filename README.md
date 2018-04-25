@@ -42,8 +42,8 @@ The training data consists of 24088 images from 211 classes. The test data is co
      * class_list.txt: Contains the names of 211 class labels. This can be used to map class_ids with class names.
      * train_info.csv: Each line of this csv containing the "image_name,label" pair for training data. For example, "train_00000.jpg,94" refers to image train_00000.jpg having class_id 94. The class_id can be mapped to class name using class_list.txt. 
      * val_info.csv: Same as train_info.csv for validation data
-     * test_info.csv: csv only provides the list of training images
- * We provide separate folders for train, val and test images as mentioned below.
+     * test_info.csv: csv only provides the list of test images
+ * We provide separate tars for train, val and test images as mentioned below.
 
 [Train Images](abc.jpg)
 * Running `md5sum train.tar` on the tar file should produce `8a8b099e158800f2bb4883992ef35230`
@@ -103,15 +103,14 @@ By downloading this dataset you agree to the following terms:
 * The organizers make no representations or warranties regarding the data, including but not limited to warranties of non-infringement or fitness for a particular purpose.
 * You accept full responsibility for your use of the data and shall defend and indemnify the  organizers, including its employees, officers and agents, against any and all claims arising from your use of the data, including but not limited to your use of any copies of copyrighted images that you may create from the data.
 
-## DATA
-Need to be filled
+
 
 ## Organizers
 Karan Sikka, SRI International </br>
 Parneet Kaur\*, Johnson and Johnson </br>
 Weijun Wang, Google </br>
 Ajay Divakaran, SRI International </br>
-Serge Belongie, Cornell Tech </br>
+Serge Belongie, Cornell University and Cornell Tech </br>
 
 \*work done while Parneet was an intern at SRI International
 
