@@ -1,7 +1,7 @@
 <img src="https://rawgit.com/karansikka1/Foodx/master/assets/banner.png?invert_in_darkmode" align=middle/> 
 
 # iFood 2018 Challenge @ [FGVC5](https://sites.google.com/view/fgvc5/home), [CVPR 2018](http://cvpr2018.thecvf.com/)
-Being able to automatically identify the food items in an image can assist towards food intake monitoring to maintain a healthy diet. Food classification is a challenging problem due to the large number of food categories, high visual similarity between different food categories, as well as the lack of datasets that are large enough for training deep models. In this competition, we introduce a novel dataset of 211 fine-grained (prepared) food categories with 101733 training images collected from web search engines. We provide a manually cleaned subset of 10323 images for validation and and 24088 images for testing. The goal is to learn a model to classify a given image into these food-categories. 
+Being able to automatically identify the food items in an image can assist towards food intake monitoring to maintain a healthy diet. Food classification is a challenging problem due to the large number of food categories, high visual similarity between different food categories, as well as the lack of datasets that are large enough for training deep models. In this competition, we introduce a new dataset of 211 fine-grained (prepared) food categories with 101733 training images collected from the web. We provide human verified labels for both the validation set of 10323 images and the test set of 24088 images. The goal is to build a model to predict the fine-grained food-category label given an image.
 
 The main challenges are:
 
