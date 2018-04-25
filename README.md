@@ -97,7 +97,7 @@ By downloading this dataset you agree to the following terms:
 * The organizers make no representations or warranties regarding the data, including but not limited to warranties of non-infringement or fitness for a particular purpose.
 * You accept full responsibility for your use of the data and shall defend and indemnify the  organizers, including its employees, officers and agents, against any and all claims arising from your use of the data, including but not limited to your use of any copies of copyrighted images that you may create from the data.
 
-## Terms of Use
+## Acknowledgement
 We would like to thank [CVDF Foundation](http://www.cvdfoundation.org/) and Tsung-Yi Lin for helping us with hosting the data.
 
 ## Organizers
