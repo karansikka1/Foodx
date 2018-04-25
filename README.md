@@ -51,7 +51,7 @@ The training data consists of 24088 images from 211 classes. The test data is co
 * Contains training images.
 * For label information see annotation file train_info.csv. 
 
-[Validation Images](https://food-x.s3.amazonaws.com/test.tar) (200 MB)
+[Validation Images](https://food-x.s3.amazonaws.com/val.tar) (200 MB)
 * Running `md5sum val.tar` on the tar file should produce `51d666f9ab34833c117dfe6c06e3bec3`
 * Contains validation images.
 * For label information see annotation file val_info.csv. 
