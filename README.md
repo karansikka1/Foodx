@@ -87,7 +87,7 @@ Use of any external data should be properly acknowledged and cited. The general 
 * Collecting additional annotations for the train images is not allowed. 
 * Hand labeling of test data is not allowed and will lead to disqualification.
  
- Pretrained models may be used to construct the algorithms (e.g. ImageNet pretrained models) as long as participants do not actively collect additional data for the target species in the 2018 FGVCx Fungi Classification competition. 
+
 
 ## Terms of Use
 By downloading this dataset you agree to the following terms:
