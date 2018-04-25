@@ -12,7 +12,8 @@ The main challenges are:
 This competition is part of the fine-grained visual-categorization workshop ([FGVC5 workshop](https://sites.google.com/view/fgvc5/home)) at [CVPR 2018](http://cvpr2018.thecvf.com/). The winners of the challenge will be invited to present their work at the FGVC5 workshop.
 
 ## Updates
-The Github page for the challenge is online
+4/25/18: The Github page for the challenge is online
+4/25/18: Training, validation and test data is available
 
 ## Dates
 |||
@@ -33,6 +34,12 @@ The validation data consists of 10323 images from 211 classes. The test data is 
 
 ### Test Data
 The training data consists of 24088 images from 211 classes. The test data is collected from web images and then annotated. It does not contain noisy labels.
+
+## Download Data
+[Annotations]()
+      * Running `md5sum annot.tar` on the tar file should produce `xx`
+      * The tar contains 4 files
+        *dd
 
 ## Evaluation
 Submissions are evaluated on tthe op 3 error rate of the predictions on test images. For each image in the test set, you must produce the top 3 confident class labels. The file should contain a header as shown in the example submission file below. Besides the header, there should be a row for each test image. Each row has four columns: image_name,predicted class_id 1,predicted class_id 2,predicted class_id 3, where predicted class_id 1 is the most confident class labels. 
