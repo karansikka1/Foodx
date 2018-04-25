@@ -42,24 +42,24 @@ The training data consists of 24088 images from 211 classes. The test data is co
 * The tar contains 4 files
      * class_list.txt: Contains the names of 211 class labels. This can be used to map class_ids with class names.
      * train_info.csv: Each line of this csv containing the "image_name,label" pair for training data. For example, "train_00000.jpg,94" refers to image train_00000.jpg having class_id 94. The class_id can be mapped to class name using class_list.txt. 
-     * val_info.csv: Same as train_info.csv for validation data
-     * test_info.csv: csv only provides the list of test images
+     * val_info.csv: Same as train_info.csv for validation data.
+     * test_info.csv: csv only provides the list of test images.
  * We provide separate tars for train, val and test images as mentioned below.
 
 [Train Images](abc.jpg) (2 GB)
 * Running `md5sum train.tar` on the tar file should produce `8a8b099e158800f2bb4883992ef35230`
-* Contains training images
-* For label information see annotation file train_info.csv 
+* Contains training images.
+* For label information see annotation file train_info.csv. 
 
-[Val Images](abc.jpg) (200 MB)
+[Validation Images](https://food-x.s3.amazonaws.com/test.tar) (200 MB)
 * Running `md5sum val.tar` on the tar file should produce `51d666f9ab34833c117dfe6c06e3bec3`
-* Contains validation images
-* For label information see annotation file val_info.csv 
+* Contains validation images.
+* For label information see annotation file val_info.csv. 
 
 [Test Images](abc.jpg) (467 MB)
 * Running `md5sum train.tar` on the tar file should produce `d7b89119c434b4b01868b7307cc22a94`
-* Contains testing images
-* The label will be evaluation on the evaluation server
+* Contains testing images.
+* The label will be evaluation on the evaluation server.
 
 ## Evaluation
 Submissions are evaluated on tthe op 3 error rate of the predictions on test images. For each image in the test set, you must produce the top 3 confident class labels. The file should contain a header as shown in the example submission file below. Besides the header, there should be a row for each test image. Each row has four columns: image_name,predicted class_id 1,predicted class_id 2,predicted class_id 3, where predicted class_id 1 is the most confident class labels. 
@@ -87,13 +87,10 @@ This file will have N+1 rows where N = number of test images.
 
 ## Rules
 
-* Participants should use only the provided training and validation images for training models. No additional data is allowed. Validation data should only be used for validation.
-
-* Collecting additional annotations for the test images is not allowed.
-
-* Hand labeling is forbidden.
-
-* Pretrained models (such as, trained on ImageNet) are allowed but should be properly acknowledged and cited.
+* Participants should use only the provided training and validation images for training models. Validation data should only be used for validation. 
+* We do not allow augmentation with any prior datasets or additional data during training. Pretrained models (such as, trained on ImageNet) are allowed but should be properly acknowledged and cited.
+* Collecting additional annotations for the train images is not allowed. 
+* Hand labeling of test data is not allowed and will lead to disqualification.
  
 
 ## Terms of Use
