@@ -113,4 +113,4 @@ Serge Belongie, Cornell University and Cornell Tech </br>
 
 \*work done while Parneet was an intern at SRI International
 
-For any further inquiries please contact us at xyz@FIXME.com
+For any further inquiries please contact us at [ifoodcvpr18@gmail.com](ifoodcvpr18@gmail.com)
