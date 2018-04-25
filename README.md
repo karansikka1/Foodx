@@ -24,7 +24,7 @@ Submission Deadline|June, 2018|
 Winners Announced|June, 2018|
 
 ## Evaluation Server
-(Will be updated soon)
+The challenge is hosted on [Kaggle](https://www.kaggle.com/c/ifood2018)
 
 ## Data
 There is a total of 211 food categories in the dataset. A complete list of classes is available [here](https://rawgit.com/karansikka1/Foodx/master/class_list.txt).
