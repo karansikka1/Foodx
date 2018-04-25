@@ -77,12 +77,12 @@ The overall error score for an algorithm is the average error over all <img src=
 ## Submission File Format
 ```
 image_name,label1 label2 label3 
-test_0001,0 1 10 
-test_0002,1 3 5 
-test_0003,0 5 1 
+test_0001.jpg,0 1 10 
+test_0002.jpg,1 3 5 
+test_0003.jpg,0 5 1 
 ```
 
-Please include the header as shown above for correct parsing. Each line will correspond to one test image and will be identified by the id (e.g test_0001 refers to image test_0001.jpg) for computing accuracy.
+Please include the header as shown above for correct parsing. Each line will correspond to one test image and will be identified by the id (e.g test_0001.jpg refers to image test_0001.jpg) for computing accuracy.
 
 ## Rules
 
