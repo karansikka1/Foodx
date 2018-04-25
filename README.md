@@ -62,22 +62,16 @@ The training data consists of 24088 images from 211 classes. The test data is co
 * The label will be evaluation on the evaluation server.
 
 ## Evaluation
-Submissions are evaluated on tthe op 3 error rate of the predictions on test images. For each image in the test set, you must produce the top 3 confident class labels. The file should contain a header as shown in the example submission file below. Besides the header, there should be a row for each test image. Each row has four columns: image_name,predicted class_id 1,predicted class_id 2,predicted class_id 3, where predicted class_id 1 is the most confident class labels. 
+We follow a similar metric to the classification tasks of the [ILSVRC](http://image-net.org/challenges/LSVRC/2016/index#scene). For each image <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/77a3b857d53fb44e33b53e4c8b68351a.svg?invert_in_darkmode" align=middle width=5.642109pt height=21.60213pt/>, an algorithm will produce 3 labels <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/655bedbaf4a65f397b5041d0fdecde4c.svg?invert_in_darkmode" align=middle width=15.601905pt height=22.74591pt/>, <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/946e592e2b2753a9272767ae3dd5b9a9.svg?invert_in_darkmode" align=middle width=82.4274pt height=21.60213pt/>. For this competition each image has one ground truth label <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/681a37b53b66acbc455e39ca3e6f1c41.svg?invert_in_darkmode" align=middle width=12.444795pt height=14.10255pt/>, and the error for that image is:
+<p align="center"><img src="https://rawgit.com/visipedia/inat_comp/master/svgs/7a42826f81c53c77e0fef3c827238d25.svg?invert_in_darkmode" align=middle width=123.403665pt height=24.865665pt/></p>
+Where
+<p align="center"><img src="https://rawgit.com/visipedia/inat_comp/master/svgs/7a45c501d5042bd031a267f008fa2ae6.svg?invert_in_darkmode" align=middle width=190.2021pt height=49.13139pt/></p>
 
-The error rate of a test image <img src="https://rawgit.com/karansikka1/Foodx/master/assets/i.png?invert_in_darkmode" width=4pt height=15pt/> with true label <img src="https://rawgit.com/karansikka1/Foodx/master/assets/g_i.png?invert_in_darkmode" align=middle width=12pt height=16pt/> and predicted labels <img src="https://rawgit.com/karansikka1/Foodx/master/assets/p_ik.png?invert_in_darkmode" align=middle  width=16pt height=14pt/>  is:
-
-<img src="https://rawgit.com/karansikka1/Foodx/master/assets/eq_1.png?invert_in_darkmode" align=middle width=140pt height=24pt/> , 
-
-where 
-
-<img src="https://rawgit.com/karansikka1/Foodx/master/assets/eq_2.png?invert_in_darkmode" align=middle width=190pt height=50pt/>.
- 
-The overall error score of the test dataset with <img src="https://rawgit.com/karansikka1/Foodx/master/assets/N.png?invert_in_darkmode" width=12pt height=14/> test images is computed as:
-
- <img src="https://rawgit.com/karansikka1/Foodx/master/assets/eq_3.png?invert_in_darkmode" align=middle width=140pt height=45pt/>.
+The overall error score for an algorithm is the average error over all <img src="https://rawgit.com/visipedia/inat_comp/master/svgs/f9c4988898e7f532b9f826a75014ed3c.svg?invert_in_darkmode" align=middle width=14.94405pt height=22.38192pt/> test images:
+<p align="center"><img src="https://rawgit.com/visipedia/inat_comp/master/svgs/444adcac0c7cbb4a8419ee1484625349.svg?invert_in_darkmode" align=middle width=118.05123pt height=41.069655pt/></p>
 
 
-## Submission File
+## Submission File Format
 image_name,pred1,pred2,pred3 </br>
 test_0001,0,1,10 </br>
 test_0002,1,3,5 </br>
@@ -88,10 +82,12 @@ This file will have N+1 rows where N = number of test images.
 ## Rules
 
 * Participants should use only the provided training and validation images for training models. Validation data should only be used for validation. 
-* We do not allow augmentation with any prior datasets or additional data during training. Pretrained models (such as, trained on ImageNet) are allowed but should be properly acknowledged and cited.
+* We do not allow augmentation with any prior datasets or additional data during training. Pretraining with additional data (such as ImageNet) is allowed as long as participants do not actively collect additional data for the target categories in iFood 2018 challenge. 
+Use of any external data should be properly acknowledged and cited. The general rule is that we want participants to use only the provided training and validation images to train a model to classify the test images.
 * Collecting additional annotations for the train images is not allowed. 
 * Hand labeling of test data is not allowed and will lead to disqualification.
  
+ Pretrained models may be used to construct the algorithms (e.g. ImageNet pretrained models) as long as participants do not actively collect additional data for the target species in the 2018 FGVCx Fungi Classification competition. 
 
 ## Terms of Use
 By downloading this dataset you agree to the following terms:
