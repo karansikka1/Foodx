@@ -7,7 +7,7 @@ The main challenges are:
 
 * Fine-grained Classes: The classes are fine-grained and visually similar. For example, the dataset has 15 different types of cakes, and 10 different types of pastas.
 
-* Noisy Data: Since the training images are crawled from web search engines, they often include images of raw ingredients or processed and packaged food items. This is refered to as cross-domain noise. Further, due to the fine-grained nature of food-categories, a training image may either be incorrectly labeled into a visually similar class or be annotated with with a single label despite having multiple food items. 
+* Noisy Data: Since the training images are crawled from the web, they often include images of raw ingredients or processed and packaged food items. This is refered to as cross-domain noise. Further, due to the fine-grained nature of food-categories, a training image may either be incorrectly labeled into a visually similar class or be annotated with with a single label despite having multiple food items. 
 
 This competition is part of the fine-grained visual-categorization workshop ([FGVC5 workshop](https://sites.google.com/view/fgvc5/home)) at [CVPR 2018](http://cvpr2018.thecvf.com/). The winners of the challenge will be invited to present their work at the FGVC5 workshop.
 
@@ -34,10 +34,10 @@ There is a total of 211 food categories in the dataset. A complete list of class
 The training data consists of 101733 images from 211 classes. The training data is collected from web images and consists of noisy labels.
 
 ### Validation Data
-The validation data consists of 10323 images from 211 classes. The test data is collected from web images and then annotated. It does not contain noisy labels.
+The validation data consists of 10323 images from 211 classes. The test data is collected from web images and the labels are human verified. It does not contain noisy labels.
 
 ### Test Data
-The training data consists of 24088 images from 211 classes. The test data is collected from web images and then annotated. It does not contain noisy labels.
+The training data consists of 24088 images from 211 classes. The test data is collected from web images and the labels are human verified. It does not contain noisy labels.
 
 ## Data Download and Format
 [Annotations](https://food-x.s3.amazonaws.com/annot.tar) (2.6 MB)
