@@ -40,12 +40,12 @@ The validation data consists of 10323 images from 211 classes. The test data is 
 The training data consists of 24088 images from 211 classes. The test data is collected from web images and the labels are human verified. It does not contain noisy labels.
 
 ## Data Download and Format
+### Note: We have made the training and test data available for now to play with. We are working on releasing the validation data asap. You can still submit your scores on test data on the Kaggle server to test performance. 
 [Annotations](https://food-x.s3.amazonaws.com/annot.tar) (2.6 MB)
-* Running `md5sum annot.tar` on the tar file should produce `6a3934bd96c1bc1df4822c16a8191158`
+* Running `md5sum annot.tar` on the tar file should produce `107c6071631be1fbcfebfbd1e4a2d7b9`
 * The tar contains 4 files
      * class_list.txt: Contains the names of 211 class labels. This can be used to map class_ids with class names.
-     * train_info.csv: Each line of this csv containing the "image_name,label" pair for training data. For example, "train_00000.jpg,94" refers to image train_00000.jpg having class_id 94. The class_id can be mapped to class name using class_list.txt. 
-     * val_info.csv: Same as train_info.csv for validation data.
+     * train_info.csv: Each line of this csv containing the "image_name,label" pair for training data. For example, "train_00000.jpg,94" refers to image train_00000.jpg having class_id 94. The class_id can be mapped to class name using class_list.txt.      
      * test_info.csv: csv only provides the list of test images.
  * We provide separate tars for train, val and test images as mentioned below.
 
