@@ -107,7 +107,7 @@ We would like to thank [CVDF Foundation](http://www.cvdfoundation.org/) and Tsun
 
 ## Organizers
 Karan Sikka, SRI International </br>
-Parneet Kaur\*, Johnson and Johnson </br>
+Parneet Kaur\*, Johnson \& Johnson </br>
 Weijun Wang, Google </br>
 Ajay Divakaran, SRI International </br>
 Serge Belongie, Cornell University and Cornell Tech </br>
