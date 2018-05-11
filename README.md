@@ -20,8 +20,8 @@ This competition is part of the fine-grained visual-categorization workshop ([FG
 |||
 |------|---------------|
 Data Released|April 25, 2018|
-Submission Deadline|June, 2018|
-Winners Announced|June, 2018|
+Submission Deadline|June 15th, 2018|
+Winners Announced|June 16th, 2018|
 
 ## Evaluation Server
 The challenge is hosted on [Kaggle](https://www.kaggle.com/c/ifood2018)
