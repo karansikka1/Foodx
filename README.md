@@ -9,13 +9,13 @@ The main challenges are:
 
 * Noisy Data: Since the training images are crawled from the web, they often include images of raw ingredients or processed and packaged food items. This is refered to as cross-domain noise. Further, due to the fine-grained nature of food-categories, a training image may either be incorrectly labeled into a visually similar class or be annotated with with a single label despite having multiple food items. 
 
-This competition is part of the fine-grained visual-categorization workshop ([FGVC5 workshop](https://sites.google.com/view/fgvc5/home)) at [CVPR 2018](http://cvpr2018.thecvf.com/). Individuals/teams with top submissions will present their work as a poster at the FGVC5 workshop. We are offering cash-prizes to the top three entries.
+This competition is part of the fine-grained visual-categorization workshop ([FGVC5 workshop](https://sites.google.com/view/fgvc5/home)) at [CVPR 2018](http://cvpr2018.thecvf.com/). Individuals/teams with top submissions will present their work as a poster at the FGVC5 workshop. We are offering cash-prizes to the top three entries (sponsored by SRI International).
 
-1st: $500
+1st prize: $500
 
-2st: $300
+2nd prize: $300
 
-3st: $200
+3rd prize: $200
 
 ## Updates
 4/25/18: The Github page for the challenge is online
