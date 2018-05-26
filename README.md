@@ -18,6 +18,8 @@ This competition is part of the fine-grained visual-categorization workshop ([FG
 3rd prize: $200
 
 ## Updates
+5/26/18: We have 10 teams competing with 20 days to go for the challenge. Participate! We will also be giving some cash prizes. 
+
 4/25/18: The Github page for the challenge is online
 
 4/25/18: Training, validation and test data is available
