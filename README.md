@@ -54,7 +54,8 @@ The validation data consists of 10323 images from 211 classes. The test data is 
 The training data consists of 24088 images from 211 classes. The test data is collected from web images and the labels are human verified. It does not contain noisy labels.
 
 ## Data Download and Format
-[Annotations](https://food-x.s3.amazonaws.com/annot.tar) (2.6 MB)
+# This project is deprecated. Please refer to the 2019 [version](https://github.com/karansikka1/iFood_2019/) of this challenge and data. 
+[Annotations](https://github.com/karansikka1/iFood_2019/) (2.6 MB)
 * Running `md5sum annot.tar` on the tar file should produce `1580c3d24167c7b7a2f297903757805d`
 * The tar contains 4 files
      * class_list.txt: Contains the names of 211 class labels. This can be used to map class_ids with class names.
@@ -63,17 +64,17 @@ The training data consists of 24088 images from 211 classes. The test data is co
      * test_info.csv: csv only provides the list of test images.
  * We provide separate tars for train, val and test images as mentioned below.
 
-[Train Images](https://food-x.s3.amazonaws.com/train.tar) (2 GB)
+[Train Images](https://github.com/karansikka1/iFood_2019/) (2 GB)
 * Running `md5sum train.tar` on the tar file should produce `8a8b099e158800f2bb4883992ef35230`
 * Contains training images.
 * For label information see annotation file train_info.csv. 
 
-[Validation Images](https://food-x.s3.amazonaws.com/val.tar) (200 MB)
+[Validation Images](https://github.com/karansikka1/iFood_2019/) (200 MB)
 * Running `md5sum val.tar` on the tar file should produce `51d666f9ab34833c117dfe6c06e3bec3`
 * Contains validation images.
 * For label information see annotation file val_info.csv. 
 
-[Test Images](https://food-x.s3.amazonaws.com/test.tar) (467 MB)
+[Test Images](https://github.com/karansikka1/iFood_2019/) (467 MB)
 * Running `md5sum train.tar` on the tar file should produce `d7b89119c434b4b01868b7307cc22a94`
 * Contains testing images.
 * The label will be evaluation on the evaluation server.
